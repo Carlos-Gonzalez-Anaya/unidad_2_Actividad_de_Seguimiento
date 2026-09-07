@@ -13,7 +13,6 @@ CREATE TABLE Cliente
 );
 
 
-
 CREATE TABLE Actor
 (
 	IdActor INT IDENTITY(1,1) PRIMARY KEY,
@@ -115,3 +114,10 @@ CREATE TABLE VideoGenero
 			REFERENCES Genero(IdGenero)
 );
 
+
+
+-- =================================
+-- PRESENTACION
+-- =================================
+
+--https://docs.google.com/presentation/d/1g13qu7uF9gAo2UKY4ZvWOtUn1y8na0wiAVLqc-chgds/edit?usp=sharing
